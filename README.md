@@ -1,7 +1,8 @@
 # DiarioEmocional
 Um sistema que desenvolve seu emocional junto com você
 
-# Sprint 0
+# Sprint Zero
+---
 
 ## Visão do produto
 
