@@ -49,21 +49,21 @@ Enuncie também a hipótese de valor: *acreditamos que [usuários] vão [comport
 | P1 | Como usuário, quero editar ou excluir registros para corrigir informações | Ações de editar/excluir com confirmação | 3 |
 | P2 | Como usuário, quero visualizar histórico diário para revisar meus registros passados | Lista por data com relato, sentimento e sono | 3 |
 | P3 | Como usuário, quero ver resumo semanal simples para perceber padrões | Exibe quantidade de check-ins, média de humor e dias com sono inadequado | 3 |
+> P1 = essencial para o MVP, P2 = importante, P3 = desejável.
 
-## Plataforma escolhida
+## Plataforma escolhida: Android
 
-Levando em consideração o público-alvo do sistema, nesse caso, estudantes universitários, é necessário considerar o poder aquisitivo e a necessidade desses individuos, os quais geralmente se encontram em uma situação de ascensão social. De acordo com uma pesquisa realizada em 2022, pela Partyou, 56% dos entrevistados afirmaram utilizar Android, enquanto 44% deles utilizam o sistema IOS. Portanto, é possível inferir que a plataforma Android torna-se mais proveitosa para os usuários.
+Levando em consideração o público-alvo do sistema, nesse caso, estudantes universitários, é necessário considerar o poder aquisitivo e a necessidade desses individuos, os quais geralmente se encontram em uma situação de ascensão social. De acordo com uma pesquisa realizada em 2022, pela Partyou, 56% dos entrevistados afirmaram utilizar Android, enquanto 44% deles utilizam o sistema IOS. Portanto, é possível inferir que a plataforma **Android** torna-se mais proveitosa para os usuários.
 Contudo, mesmo sendo a preferível, nenhum dos componentes do grupo possível Android, sendo preciso instalar o emulador.
 
-## Escolha do backend
+## Escolha do backend: Supabase
 
-Desde a criação do projeto, o grupo sabia que não criaria uma API própria backend, por dificuldades de tempo para criar-lá do zero. No entanto, também não foi cogitado utilizar APIs públicas, pelo empecilho de achar um nicho tão específico de diário e também falta de conformidade com os objetivos. Portanto, dentre as opções restantes, o grupo ficou em dúvida entre utilizar o Firebase ou Supabase, contudo, no final foi escolhido o Supabase.
+Desde a criação do projeto, o grupo sabia que não criaria uma API própria backend, por dificuldades de tempo para criar-lá do zero. No entanto, também não foi cogitado utilizar APIs públicas, pelo empecilho de achar um nicho tão específico de diário e também falta de conformidade com os objetivos. Portanto, dentre as opções restantes, o grupo ficou em dúvida entre utilizar o Firebase ou Supabase, contudo, no final foi escolhido o **Supabase**.
 
 Tendo em vista as funcionalidades do usuário baseadas em preenchimento de formulários, não haverá necessidade de um banco de dados não relacional, como ocorre com o Firebase, os dados possuem atributos e relações claras entre si. Além disso,  O Supabase também oferece Row Level Security (RLS), permitindo definir políticas de acesso diretamente sobre as linhas das tabelas. Dessa forma, cada usuário pode acessar somente seus próprios registros, o que é particularmente relevante para a privacidade dos dados pessoais armazenados pelo Diário Emocional.
 
 Por fim, as consultas SQL proporcionadas pelo Supabase facilitaria a implementação do histórico e do resumo semanal, uma vez que as consultas conseguem buscar, filtrar e calcular informações a partir de vários registros.
 
 
-> P1 = essencial para o MVP, P2 = importante, P3 = desejável.
 
 ---
