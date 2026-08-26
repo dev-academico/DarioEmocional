@@ -11,26 +11,15 @@ A Sprint 0 é a fase de planejamento: a equipe define o que vai construir, escol
 Declaração que responde por que o produto existe e qual problema resolve. Use este template:
 
 ```
-Para [usuários-alvo]
-Que [problema ou necessidade]
-O [nome do produto] é um [categoria]
-Que [benefício principal]
-Diferente de [alternativa existente]
-Nosso produto [diferencial único]
-```
-
-**Exemplo:**
+Para adolescentes universitários
+Que sofrem de saúde mental instável e falta de organização
+O diário emocional 
+É um aplicativo de registro de atividades e sentimentos diários
+Que permite que o usuário relate suas atividades, sono e emoções
+Diferente do Diário e Saúde da Apple
+Nosso produto tem a conquista de pontuação diária, semelhante a streak do duolingo e controle de atividades
 
 ```
-Para agentes de campo de secretarias municipais
-Que registram vistorias em papel e digitam tudo de novo no escritório
-O Vistoria é um aplicativo móvel de registro em campo
-Que captura foto, localização e formulário mesmo sem sinal
-Diferente de planilhas e formulários de papel
-Nosso produto sincroniza sozinho quando a conexão volta
-```
-
-Verifique se a visão define o usuário, nomeia um problema específico, explicita o valor único e é realista para um semestre com equipe de até quatro pessoas.
 
 ---
 
