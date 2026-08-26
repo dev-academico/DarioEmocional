@@ -2,7 +2,6 @@
 Um sistema que desenvolve seu emocional junto com você
 
 # Sprint Zero
----
 
 ## Visão do produto
 
@@ -18,8 +17,6 @@ Diferente do Diário e Saúde da Apple
 Nosso produto tem a conquista de pontuação diária, semelhante a streak do duolingo e controle de atividades
 
 ```
-
----
 
 ## Definição do MVP
 
@@ -37,8 +34,6 @@ O MVP é o escopo mínimo que entrega valor. Declare explicitamente o que fica *
 | Preenchimento de cronograma semanal de atividades obrigatórias | Integração com wearables (smartwatch) |
 
 Enuncie também a hipótese de valor: *acreditamos que [usuários] vão [comportamento] porque [benefício]*.
-
----
 
 ## Backlog inicial (priorizado)
 
