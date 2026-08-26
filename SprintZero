@@ -31,28 +31,33 @@ O MVP é o escopo mínimo que entrega valor. Declare explicitamente o que fica *
 
 | No MVP | Fora do MVP |
 |---|---|
-| Cadastro de vistoria com foto e GPS | Assinatura digital do vistoriado |
-| Formulário com validação | Geração de PDF do laudo |
-| Funcionamento offline com fila de envio | Painel web de acompanhamento |
-| Sincronização ao recuperar conexão | Relatórios e gráficos |
-| Lista e busca das vistorias do agente | Múltiplos perfis e permissões |
+| Relato do dia (texto livre) | Fotos, GPS com o relato |
+| Avaliação dos sentimentos do dia (escala simples, ex.: 1–5 + emoção principal) | Aspectos da vida relacionados |
+| Registro de Pensamento Disfuncional (RPD) para momentos de crise (formulário guiado) | Compartilhar com o psicologo |
+| Marcação de pontuação diária | Gamificação avançada (loja, ranking entre usuários, recompensas complexas) |
+| Registro de higiene do sono (horas dormidas + uso de celular antes de dormir) | Múltiplos perfis e permissões |
+| Preenchimento de cronograma semanal de atividades obrigatórias | Integração com wearables (smartwatch) |
 
 Enuncie também a hipótese de valor: *acreditamos que [usuários] vão [comportamento] porque [benefício]*.
 
 ---
 
-## Backlog inicial
-
-Mínimo de 10 itens no GitHub Projects, ao menos 3 estimados, todos priorizados. Formato de história de usuário: **como [papel], quero [ação] para [benefício]**.
+## Backlog inicial (priorizado)
 
 | Prio | História | Critérios de aceitação | Entrega prevista |
 |---|---|---|---|
-| P1 | Como agente, quero registrar uma vistoria com foto para documentar o local | Formulário com campos obrigatórios validados; foto da câmera anexada; salva localmente | 1 |
-| P1 | Como agente, quero ver minhas vistorias para retomar um registro | Lista ordenada por data; indica quais ainda não subiram | 1 |
-| P2 | Como agente, quero registrar sem sinal para não depender da rede | Registro salvo em fila; indicador visível de pendência | 3 |
-| P2 | Como agente, quero que a localização venha automática para não digitar coordenadas | Permissão solicitada em contexto; funciona com permissão negada | final |
+| P1 | Como usuário, quero fazer um relato do dia para registrar como foi minha rotina | Campo de texto livre; data automática; registro salvo localmente | 1 |
+| P1 | Como usuário, quero avaliar os sentimentos do dia para acompanhar meu estado emocional | Seleciona emoção principal + intensidade; salva junto da data | 1 |
+| P1 | Como usuário, quero registrar pensamentos disfuncionais em crises para organizar minhas ideias | Formulário com situação, pensamento automático, emoção, resposta alternativa; salva histórico | 2 |
+| P1 | Como usuário, quero preencher meu cronograma semanal para me organizar com atividades obrigatórias | Cadastro de atividade com dia/horário; lista semanal visível | 1 |
+| P1 | Como usuário, quero receber lembretes das atividades para não esquecer compromissos | Notificação local no horário definido; opção de ativar/desativar lembrete | 2 |
+| P1 | Como usuário, quero marcar pontuação diária por uso para manter constância | Ao completar check-in diário, soma 1 no streak; mantém sequência por dias consecutivos | 2 |
+| P2 | Como usuário, quero registrar higiene do sono para observar hábitos noturnos | Campos de horas dormidas + “usou celular antes de dormir” (sim/não) | 2 |
+| P2 | Como usuário, quero visualizar histórico diário para revisar meus registros passados | Lista por data com relato, sentimento e sono | 3 |
+| P2 | Como usuário, quero editar ou excluir registros para corrigir informações | Ações de editar/excluir com confirmação | 3 |
+| P3 | Como usuário, quero ver resumo semanal simples para perceber padrões | Exibe quantidade de check-ins, média de humor e dias com sono inadequado | final |
 
-P1 é essencial ao MVP, P2 é importante, P3 é desejável.
+> P1 = essencial para o MVP, P2 = importante, P3 = desejável.
 
 ---
 
@@ -97,3 +102,4 @@ https://kmp.jetbrains.com
 Marque os alvos **Android**, **iOS** e **Desktop**, e escolha compartilhar a interface com Compose Multiplatform. O alvo desktop existe para dar o ciclo rápido de edição e visualização com Compose Hot Reload, e funciona em Windows, Linux e macOS.
 
 Rode `kdoctor` antes de abrir uma dúvida sobre ambiente: ele diagnostica a maior parte dos problemas de instalação e diz o que falta.
+
