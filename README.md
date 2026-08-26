@@ -1,13 +1,7 @@
 # DiarioEmocional
 Um sistema que desenvolve seu emocional junto com você
 
-# Guia da Sprint 0 — DIM0524
-
-Prazo em [CRONOGRAMA.md](CRONOGRAMA.md#visão-geral). O que entregar e como é avaliado: [RUBRICAS.md](RUBRICAS.md#sprint-0).
-
-A Sprint 0 é a fase de planejamento: a equipe define o que vai construir, escolhe plataforma-alvo e backend, e deixa o ambiente funcionando.
-
----
+# Sprint 0
 
 ## Visão do produto
 
