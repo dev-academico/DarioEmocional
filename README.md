@@ -48,11 +48,12 @@ Enuncie também a hipótese de valor: *acreditamos que [usuários] vão [comport
 | P1 | Como usuário, quero registrar pensamentos disfuncionais em crises para organizar minhas ideias | Formulário com situação, pensamento automático, emoção, resposta alternativa; salva histórico | 2 |
 | P1 | Como usuário, quero preencher meu cronograma semanal para me organizar com atividades obrigatórias | Cadastro de atividade com dia/horário; lista semanal visível | 1 |
 | P1 | Como usuário, quero receber lembretes das atividades para não esquecer compromissos | Notificação local no horário definido; opção de ativar/desativar lembrete | 2 |
+| P1 | Como usuário, quero editar ou excluir registros para corrigir informações | Ações de editar/excluir com confirmação | 3 |
 | P1 | Como usuário, quero marcar pontuação diária por uso para manter constância | Ao completar check-in diário, soma 1 no streak; mantém sequência por dias consecutivos | 2 |
 | P2 | Como usuário, quero registrar higiene do sono para observar hábitos noturnos | Campos de horas dormidas + “usou celular antes de dormir” (sim/não) | 2 |
 | P2 | Como usuário, quero visualizar histórico diário para revisar meus registros passados | Lista por data com relato, sentimento e sono | 3 |
-| P2 | Como usuário, quero editar ou excluir registros para corrigir informações | Ações de editar/excluir com confirmação | 3 |
-| P3 | Como usuário, quero ver resumo semanal simples para perceber padrões | Exibe quantidade de check-ins, média de humor e dias com sono inadequado | final |
+
+| P3 | Como usuário, quero ver resumo semanal simples para perceber padrões | Exibe quantidade de check-ins, média de humor e dias com sono inadequado | 4 |
 
 > P1 = essencial para o MVP, P2 = importante, P3 = desejável.
 
