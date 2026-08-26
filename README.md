@@ -56,6 +56,9 @@ Enuncie também a hipótese de valor: *acreditamos que [usuários] vão [comport
 Levando em consideração o público-alvo do sistema, nesse caso, estudantes universitários, é necessário considerar o poder aquisitivo e a necessidade desses individuos, os quais geralmente se encontram em uma situação de ascensão social. De acordo com uma pesquisa realizada em 2022, pela Partyou, 56% dos entrevistados afirmaram utilizar Android, enquanto 44% deles utilizam o sistema IOS. Portanto, é possível inferir que a plataforma **Android** torna-se mais proveitosa para os usuários.
 Contudo, mesmo sendo a preferível, nenhum dos componentes do grupo possível Android, sendo preciso instalar o emulador.
 
+Segue link da pesquisa:
+https://consumidormoderno.com.br/consumo-tecnologico-universitarios/
+
 ## Escolha do backend: Supabase
 
 Desde a criação do projeto, o grupo sabia que não criaria uma API própria backend, por dificuldades de tempo para criar-lá do zero. No entanto, também não foi cogitado utilizar APIs públicas, pelo empecilho de achar um nicho tão específico de diário e também falta de conformidade com os objetivos. Portanto, dentre as opções restantes, o grupo ficou em dúvida entre utilizar o Firebase ou Supabase, contudo, no final foi escolhido o **Supabase**.
