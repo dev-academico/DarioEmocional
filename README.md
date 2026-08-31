@@ -31,6 +31,8 @@ Acreditamos que os adolescentes universitários vão se sentir melhor mentalment
 
 ## 3. Backlog inicial
 
+Link para o backlog em formato de kanban: https://github.com/orgs/dev-academico/projects/3
+
 | Prio | História | Critérios de aceitação | Entrega prevista |
 |---|---|---|---|
 | P1 | Como usuário, quero fazer um relato do dia para registrar como foi minha rotina | Campo de texto livre; data automática; registro salvo localmente | 1 |
