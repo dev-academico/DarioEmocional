@@ -1,7 +1,7 @@
 # Diario Emocional
 Um sistema que desenvolve seu emocional junto com você
 
-## Visão do produto
+## 1. Visão do produto
 
 Declaração que responde por que o produto existe e qual problema resolve. Use este template:
 
@@ -16,7 +16,7 @@ Nosso produto tem a conquista de pontuação diária, semelhante a streak do duo
 
 ```
 
-## Definição do MVP
+## 2. Definição do MVP
 
 O MVP é o escopo mínimo que entrega valor. Declare explicitamente o que fica **fora** — é isso que protege a equipe de estourar o prazo.
 
@@ -33,7 +33,7 @@ O MVP é o escopo mínimo que entrega valor. Declare explicitamente o que fica *
 
 Enuncie também a hipótese de valor: *acreditamos que [usuários] vão [comportamento] porque [benefício]*.
 
-## Backlog inicial
+## 3. Backlog inicial
 
 | Prio | História | Critérios de aceitação | Entrega prevista |
 |---|---|---|---|
@@ -48,9 +48,10 @@ Enuncie também a hipótese de valor: *acreditamos que [usuários] vão [comport
 | P2 | Como usuário, quero visualizar histórico diário para revisar meus registros passados | Lista por data com relato, sentimento e sono | 3 |
 | P3 | Como usuário, quero ver resumo semanal simples para perceber padrões | Exibe quantidade de check-ins, média de humor e dias com sono inadequado | 4 |
 | P1 | Como usuário, quero receber lembretes das atividades para não esquecer compromissos | Notificação local no horário definido; opção de ativar/desativar lembrete | 4 |
+
 > P1 = essencial para o MVP, P2 = importante, P3 = desejável.
 
-## Plataforma escolhida: Android
+## 4. Plataforma escolhida: Android
 
 Levando em consideração o público-alvo do sistema, nesse caso, estudantes universitários, é necessário considerar o poder aquisitivo e a necessidade desses individuos, os quais geralmente se encontram em uma situação de ascensão social. De acordo com uma pesquisa realizada em 2022, pela Partyou, 56% dos entrevistados afirmaram utilizar Android, enquanto 44% deles utilizam o sistema IOS. Portanto, é possível inferir que a plataforma **Android** torna-se mais proveitosa para os usuários.
 Contudo, mesmo sendo a preferível, nenhum dos componentes do grupo possível Android, sendo preciso instalar o emulador.
@@ -58,7 +59,7 @@ Contudo, mesmo sendo a preferível, nenhum dos componentes do grupo possível An
 Segue link da pesquisa:
 https://consumidormoderno.com.br/consumo-tecnologico-universitarios/
 
-## Escolha do backend: Supabase
+## 5. Escolha do backend: Supabase
 
 Desde a criação do projeto, o grupo sabia que não criaria uma API própria backend, por dificuldades de tempo para criar-lá do zero. No entanto, também não foi cogitado utilizar APIs públicas, pelo empecilho de achar um nicho tão específico de diário e também falta de conformidade com os objetivos. Portanto, dentre as opções restantes, o grupo ficou em dúvida entre utilizar o Firebase ou Supabase, contudo, no final foi escolhido o **Supabase**.
 
@@ -66,6 +67,16 @@ Tendo em vista as funcionalidades do usuário baseadas em preenchimento de formu
 
 Por fim, as consultas SQL proporcionadas pelo Supabase facilitaria a implementação do histórico e do resumo semanal, uma vez que as consultas conseguem buscar, filtrar e calcular informações a partir de vários registros.
 
+## 6. Equipe
 
+| Nome | Matrícula | Papel |
+|---|---|---|
+| Pedro Henrique de Sousa Varela | 20240023651 |
+| Raquel dos Santos Garcia | 20240017860 |
+
+## 7. Corte de apresentação: Vídeo
+
+Iremos enviar um vídeo sobre a apresentação, seguindo a estrutura do docs/proposta.md.
+Não iremos integrar o projeto com outra disciplina
 
 ---
