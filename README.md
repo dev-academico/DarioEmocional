@@ -18,9 +18,7 @@ Nosso produto tem a conquista de pontuação diária, semelhante a streak do duo
 
 ## 2. Definição do MVP
 
-O MVP é o escopo mínimo que entrega valor. Declare explicitamente o que fica **fora** — é isso que protege a equipe de estourar o prazo.
-
-**Exemplo, para o Vistoria:**
+Acreditamos que os adolescentes universitários vão se sentir melhor mentalmente com o aplicativo porque vão conseguir desabafar os sentimentos.
 
 | No MVP | Fora do MVP |
 |---|---|
@@ -30,8 +28,6 @@ O MVP é o escopo mínimo que entrega valor. Declare explicitamente o que fica *
 | Marcação de pontuação diária | Gamificação avançada (loja, ranking entre usuários, recompensas complexas) |
 | Registro de higiene do sono (horas dormidas + uso de celular antes de dormir) | Múltiplos perfis e permissões |
 | Preenchimento de cronograma semanal de atividades obrigatórias | Integração com wearables (smartwatch) |
-
-Enuncie também a hipótese de valor: *acreditamos que [usuários] vão [comportamento] porque [benefício]*.
 
 ## 3. Backlog inicial
 
@@ -43,6 +39,8 @@ Enuncie também a hipótese de valor: *acreditamos que [usuários] vão [comport
 | P1 | Como usuário, quero registrar pensamentos disfuncionais em crises para organizar minhas ideias | Formulário com situação, pensamento automático, emoção, resposta alternativa; salva histórico | 2 |
 | P1 | Como usuário, quero fazer login na minha conta | Login do usuário com username e senha | 2 |
 | P1 | Como usuário, quero marcar pontuação diária por uso para manter constância | Ao completar check-in diário, soma 1 no streak; mantém sequência por dias consecutivos | 2 |
+| P1 | Como usuário, quero preencher meu cronograma semanal para me organizar com atividades obrigatórias | Cadastro de atividade com dia/horário; lista semanal visível | 2 |
+| P2 | Como usuário, quero fazer login na minha conta | Login do usuário com username e senha | 3 |
 | P2 | Como usuário, quero registrar higiene do sono para observar hábitos noturnos | Campos de horas dormidas + “usou celular antes de dormir” (sim/não) | 3 |
 | P1 | Como usuário, quero editar ou excluir registros para corrigir informações | Ações de editar/excluir com confirmação | 3 |
 | P2 | Como usuário, quero visualizar histórico diário para revisar meus registros passados | Lista por data com relato, sentimento e sono | 3 |
@@ -71,8 +69,8 @@ Por fim, as consultas SQL proporcionadas pelo Supabase facilitaria a implementa�
 
 | Nome | Matrícula | Papel |
 |---|---|---|
-| Pedro Henrique de Sousa Varela | 20240023651 |
-| Raquel dos Santos Garcia | 20240017860 |
+| Pedro Henrique de Sousa Varela | 20240023651 | infraestrutura inicial, marcar pontuação diária, cronograma de atividades
+| Raquel dos Santos Garcia | 20240017860 | relato do dia, registro de pensamentos disfuncionais, higiene do sono, banco de dados no supabase
 
 ## 7. Corte de apresentação: Vídeo
 
