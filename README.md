@@ -38,7 +38,6 @@ Acreditamos que os adolescentes universitários vão se sentir melhor mentalment
 | P1 | Como usuário, quero preencher meu cronograma semanal para me organizar com atividades obrigatórias | Cadastro de atividade com dia/horário; lista semanal visível | 1 |
 | P1 | Como usuário, quero registrar pensamentos disfuncionais em crises para organizar minhas ideias | Formulário com situação, pensamento automático, emoção, resposta alternativa; salva histórico | 2 |
 | P1 | Como usuário, quero marcar pontuação diária por uso para manter constância | Ao completar check-in diário, soma 1 no streak; mantém sequência por dias consecutivos | 2 |
-| P1 | Como usuário, quero preencher meu cronograma semanal para me organizar com atividades obrigatórias | Cadastro de atividade com dia/horário; lista semanal visível | 2 |
 | P2 | Como usuário, quero fazer login na minha conta | Login do usuário com username e senha | 3 |
 | P2 | Como usuário, quero registrar higiene do sono para observar hábitos noturnos | Campos de horas dormidas + “usou celular antes de dormir” (sim/não) | 3 |
 | P2 | Como usuário, quero visualizar histórico diário para revisar meus registros passados | Lista por data com relato, sentimento e sono | 3 |
