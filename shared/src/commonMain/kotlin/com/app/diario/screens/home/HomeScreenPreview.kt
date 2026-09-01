@@ -9,8 +9,8 @@ import androidx.compose.ui.tooling.preview.Preview
 private fun HomeScreenWithItemsPreview() {
     val sampleEntries =
         listOf(
-            Entry("1", "Primeiro Dia", "Um limão, mil limões..."),
-            Entry("2", "Ideias de Projeto", "Construir uma tela em Compose."),
+            Entry("1", "21/01/2004", "Um limão, mil limões..."),
+            Entry("2", "12/04/2005", "Eu nasci a 10mil anos atrás...."),
         )
     Theme {
         HomeScreen(
