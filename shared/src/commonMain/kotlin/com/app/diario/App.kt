@@ -8,12 +8,9 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.systemBarsPadding
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
-import androidx.compose.material3.darkColorScheme
-import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -21,15 +18,6 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.app.diario.components.CardDiario
 import com.app.diario.components.PrimaryButton
-import com.app.diario.theme.Emerald400
-import com.app.diario.theme.Emerald500
-import com.app.diario.theme.Zinc200
-import com.app.diario.theme.Zinc400
-import com.app.diario.theme.Zinc50
-import com.app.diario.theme.Zinc500
-import com.app.diario.theme.Zinc800
-import com.app.diario.theme.Zinc900
-import com.app.diario.theme.Zinc950
 
 @Suppress("ktlint:standard:function-naming")
 @Composable

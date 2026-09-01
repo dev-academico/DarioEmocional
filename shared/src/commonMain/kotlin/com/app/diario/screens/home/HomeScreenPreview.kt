@@ -12,21 +12,21 @@ private fun HomeScreenWithItemsPreview() {
             Entry("1", "Primeiro Dia", "Um limão, mil limões..."),
             Entry("2", "Ideias de Projeto", "Construir uma tela em Compose."),
         )
-
-    Theme (
-    ) { HomeScreen(
-        entries = sampleEntries,
-        onEntryClick = {},
-    ) }
+    Theme {
+        HomeScreen(
+            entries = sampleEntries,
+            onEntryClick = {},
+        )
+    }
 }
 
 @Preview(showBackground = true, name = "Lista Vazia")
 @Composable
 private fun HomeScreenEmptyPreview() {
-    Theme (
-    ) { HomeScreen(
-        entries = emptyList(),
-        onEntryClick = {},
-    ) }
-
+    Theme {
+        HomeScreen(
+            entries = emptyList(),
+            onEntryClick = {},
+        )
+    }
 }

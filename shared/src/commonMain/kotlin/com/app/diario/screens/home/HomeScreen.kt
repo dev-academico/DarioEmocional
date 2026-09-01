@@ -23,12 +23,12 @@ data class Entry(
 fun HomeScreen(
     entries: List<Entry>,
     onEntryClick: (String) -> Unit,
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
 ) {
     if (entries.isEmpty()) {
         Box(
             modifier = modifier.fillMaxSize(),
-            contentAlignment = Alignment.Center
+            contentAlignment = Alignment.Center,
         ) {
             Text(text = "Nenhuma nota encontrada.")
         }
@@ -36,16 +36,16 @@ fun HomeScreen(
         LazyColumn(
             modifier = modifier.fillMaxSize(),
             contentPadding = PaddingValues(all = 16.dp),
-            verticalArrangement = Arrangement.spacedBy(12.dp)
+            verticalArrangement = Arrangement.spacedBy(12.dp),
         ) {
             items(
                 items = entries,
-                key = { it.id }
+                key = { it.id },
             ) { entry ->
                 CardDiario(
                     title = entry.title,
                     content = entry.content,
-                    onClick = { onEntryClick(entry.id) }
+                    onClick = { onEntryClick(entry.id) },
                 )
             }
         }
